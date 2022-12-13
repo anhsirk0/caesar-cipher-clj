@@ -7,7 +7,7 @@
 ```
 
 ## Options
-```bash
+```text
   -k, --key KEY      13  Key to shift the alphabets
   -d, --decode TEXT      Text to decode.
   -e, --encode TEXT      Text to encode.
