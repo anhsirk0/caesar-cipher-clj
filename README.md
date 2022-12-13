@@ -1,44 +1,29 @@
 # caesar-cipher
-
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+[Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) encryption implementation in Clojure for practice.
 
 ## Usage
-
-FIXME: explanation
-
-    $ java -jar caesar-cipher-0.1.0-standalone.jar [args]
+```bash
+ $ lein run -- -h
+```
 
 ## Options
+```bash
+  -k, --key KEY      13  Key to shift the alphabets
+  -d, --decode TEXT      Text to decode.
+  -e, --encode TEXT      Text to encode.
+  -h, --help
+```
 
 FIXME: listing of options this app accepts.
 
 ## Examples
+```bash
+$ lein run -- -k -3 -e "The quick brown fox jumps over the lazy dog."
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD.
+```
 
-...
+```bash
+$ lein run -- -k -3 -d "QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD."
+THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.
+```
 
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2022 FIXME
-
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
