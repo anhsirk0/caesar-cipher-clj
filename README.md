@@ -14,7 +14,6 @@
   -h, --help
 ```
 
-FIXME: listing of options this app accepts.
 
 ## Examples
 ```bash
