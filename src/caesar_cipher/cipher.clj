@@ -21,7 +21,7 @@
   "
   [key text decode?]
   (let [text (s/upper-case text)]
-    (apply str (map
-                #(char (shift-num (if decode? key (- 0 key)) (int %1)))
+    (apply str
+           (map #(char (shift-num (if decode? key (- 0 key)) (int %1)))
                 (char-array text)))))
 
